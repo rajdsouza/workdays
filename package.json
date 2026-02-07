@@ -1,25 +1,39 @@
 {
   "name": "workdays",
   "version": "1.0.0",
-  "description": "An Android-compatible web app that integrates with Google Calendar to track office attendance.",
+  "description": "A web app to manually track office attendance against a 50% goal.",
   "main": "index.js",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "cap:sync": "npx cap sync",
+    "cap:android": "npx cap open android",
+    "cap:ios": "npx cap open ios"
   },
   "dependencies": {
+    "@capacitor/android": "^8.0.2",
+    "@capacitor/cli": "^8.0.2",
+    "@capacitor/core": "^8.0.2",
+    "@capacitor/ios": "^8.0.2",
+    "@capacitor/status-bar": "^8.0.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
-    "react-scripts": "5.0.1",
-    "axios": "^0.21.1",
-    "@mui/material": "^5.0.0",
-    "@mui/icons-material": "^5.0.0",
-    "react-router-dom": "^6.0.0",
-    "google-auth-library": "^7.0.2",
-    "@react-oauth/google": "^0.7.0"
+    "react-scripts": "^5.0.1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
