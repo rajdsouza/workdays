@@ -1,0 +1,9 @@
+{
+  "short_name": "Workdays",
+  "name": "Workdays Attendance Tracker",
+  "start_url": ".",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#f5f5f5",
+  "background_color": "#f5f5f5"
+}

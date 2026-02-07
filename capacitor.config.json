@@ -1,0 +1,13 @@
+{
+  "appId": "au.com.webtize.workdays.app",
+  "appName": "Workdays",
+  "webDir": "build"
+ plugins: {
+    LiveUpdates: {
+      appId: '0387d43d',
+      channel: 'Production',
+      autoUpdateMethod: 'background',
+      maxVersions: 2
+    }
+  }
+}
